@@ -28,22 +28,22 @@ const config = {
       {
         app: 'live',
         mode: 'push',
-        edge: 'rtmp://localhost:1935/hls_1080p',
+        edge: 'rtmp://streamrtmp.herokuapp.com:1935/hls_1080p',
       },
       {
         app: 'live',
         mode: 'push',
-        edge: 'rtmp://localhost:1935/hls_720p',
+        edge: 'rtmp://streamrtmp.herokuapp.com:1935/hls_720p',
       },
       {
         app: 'live',
         mode: 'push',
-        edge: 'rtmp://localhost:1935/hls_480p',
+        edge: 'rtmp://streamrtmp.herokuapp.com:1935/hls_480p',
       },
       {
         app: 'live',
         mode: 'push',
-        edge: 'rtmp://localhost:1935/hls_360p',
+        edge: 'rtmp://streamrtmp.herokuapp.com:1935/hls_360p',
       },
     ]
   },
